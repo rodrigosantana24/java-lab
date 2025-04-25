@@ -2,4 +2,5 @@
 .classpath
 .project
 .settings
-.gitignore/
+.gitignore
+desktop.ini/
