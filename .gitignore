@@ -3,4 +3,5 @@
 .project
 .settings
 .gitignore
-desktop.ini/
+module-info.java
+bin/
