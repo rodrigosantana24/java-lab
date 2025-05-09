@@ -34,8 +34,7 @@ public class Main {
 				Double valuePerHour = sc.nextDouble();
 				sc.nextLine();
 				
-				Employee emp = new Employee(name, hours, valuePerHour);
-				employees.add(emp);
+				employees.add(new Employee(name, hours, valuePerHour));
 			}
 			
 			if(response == 'y') {
@@ -51,8 +50,7 @@ public class Main {
 				Double additionalCharge = sc.nextDouble();
 				sc.nextLine();
 				
-				OutSourcedEmployee ose = new OutSourcedEmployee(name, hours, valuePerHour, additionalCharge);
-				employees.add(ose);
+				employees.add(new OutSourcedEmployee(name, hours, valuePerHour, additionalCharge));
 			}
 		}
 		System.out.println("Pagamentos:");
