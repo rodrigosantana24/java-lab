@@ -22,6 +22,6 @@ public class OutSourcedEmployee extends Employee {
 	
 	@Override
 	public Double Payment() {
-		return (getHours() * getValuePerHour()) + (additionalCharge * 1.10);
+		return super.Payment() + (additionalCharge * 1.10);
 	}
 }
