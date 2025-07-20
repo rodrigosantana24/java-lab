@@ -1,7 +1,20 @@
-Atualmente estou me dedicando ao aprendizado de **Java** como parte da minha formação em **Sistemas de Informação** na **UFRPE**. 
-Tenho focado principalmente no desenvolvimento backend utilizando o **Spring Boot**, além de reforçar os fundamentos da linguagem, 
-como orientação a objetos, estruturas de dados e boas práticas de programação.
+# Repositório de Aprendizado Java
 
-Meu objetivo é aplicar esse conhecimento em projetos reais, criando APIs robustas e escaláveis. Também estou estudando ferramentas 
-complementares como **Git**, buscando evoluir constantemente como desenvolvedor backend. Neste repositório, você encontrará exemplos, 
-exercícios e projetos práticos que refletem meu progresso e aprendizado contínuo com a linguagem Java.
+Este repositório foi criado para reunir os códigos que desenvolvo durante meus estudos da linguagem **Java**. Os arquivos estão organizados por tópicos e representam exercícios, exemplos e testes práticos realizados ao longo do curso que fiz.
+
+## 📂 Estrutura do Repositório
+
+Os arquivos estão organizados em subpastas ou diretamente no diretório principal, dependendo do conteúdo. Entre os temas abordados, estão:
+
+-  Sintaxe básica (variáveis, operadores, entrada e saída)
+-  Estruturas de controle (if, switch, loops)
+-  Funções e métodos
+-  Programação orientada a objetos (classes, herança, encapsulamento)
+-  Pacotes e organização de código
+-  Coleções, arrays e listas
+-  Exercícios diversos
+
+## 🎯 Objetivo
+
+Consolidar o aprendizado de Java por meio da prática constante, criando um acervo de exemplos que pode ser consultado futuramente como referência.
+
