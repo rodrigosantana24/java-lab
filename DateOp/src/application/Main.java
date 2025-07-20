@@ -36,7 +36,7 @@ public class Main {
 		Duration t1 = Duration.between(pastWeekLocalDate.atStartOfDay(), d01.atStartOfDay()); //Convertendo para o local date time para o início do dia.
 		Duration t2 = Duration.between(pastWeekLocalDateTime, d02);
 		Duration t3 = Duration.between(pastWeekInstant, d03);
-		Duration t4 = Duration.between(d03, pastWeekInstant);
+		Duration t4 = Duration.between(d03, pastWeekInstant); // Calculando a diferença
 		
 		
 		System.out.println("t1 dias = " + t1.toDays());
