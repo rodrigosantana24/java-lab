@@ -4,7 +4,7 @@ import java.io.File;
 import java.io.IOException;
 import java.util.Scanner;
 
-public class Main {
+public class Files {
 
 	public static void main(String[] args) {
 		File file = new File("c:\\temp\\texto.txt");
