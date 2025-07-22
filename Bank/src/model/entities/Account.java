@@ -45,10 +45,10 @@ public class Account {
 	}
 	
 	public void withdraw(Double amount) throws DomainException {
-		if(amount > withdrawLimit) {
+		if(amount > getWithdrawLimit()) {
 			throw new DomainException("O valor ultrapassa o limite de saque");
 		}
-		if(amount > balance) {
+		if(amount > getBalance()) {
 			throw new DomainException("Saldo insuficiente");
 		}
 		this.balance -= amount;
