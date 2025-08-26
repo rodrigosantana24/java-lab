@@ -26,9 +26,9 @@ public class Main {
 		
 		File file = new File(sourceFile);
 		String sourceFolder = file.getParent();
-		boolean sucess = new File(sourceFolder + "caminho").mkdir();
+		boolean sucess = new File(sourceFolder + "/out").mkdir();
 		
-		String targetFile = sourceFolder + "caminho";
+		String targetFile = sourceFolder + "/out/summary.csv";
 		
 		try(BufferedReader br = new BufferedReader(new FileReader(sourceFile))) {
 			String itemCsv = br.readLine();
@@ -57,6 +57,8 @@ public class Main {
 		catch(IOException e) {
 			System.out.println("error: " + e.getMessage());
 		}
+		
+		System.out.println(sucess);
 		sc.close();
 	}
 }
