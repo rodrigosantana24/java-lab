@@ -1,9 +1,21 @@
-/.metadata
+# Arquivos e pastas do IntelliJ IDEA
+*.iml
+.idea/
+
+# Arquivos do Eclipse
+.metadata/
 .classpath
 .project
-.settings
-.gitignore
-module-info.java
-.vscode
+.settings/
+
+# Arquivos do VSCode
+.vscode/
+
+# Sistema e build
 desktop.ini
 bin/
+out/
+target/
+
+# Arquivo de módulo Java (se não for relevante para o controle de versão)
+module-info.java
