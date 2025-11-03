@@ -8,7 +8,7 @@ class teste4 {
 		
 		boolean result = Palindromo(palavra);
 		
-		if(result == true){
+		if(result){
 			System.out.println("A palavra " + palavra + " é um palindromo.");
 		}
 		else{
