@@ -7,7 +7,6 @@ class InsertionSort {
         
         System.out.println();
 
-
         System.out.print("Depois: ");
         insertionSort(numbers);
         printArray(numbers);
