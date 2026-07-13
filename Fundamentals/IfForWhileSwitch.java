@@ -13,7 +13,6 @@ public class IfForWhileSwitch {
         int quantidadeOperacoes = 0;
 
         while (true) {
-
             System.out.println("====================");
             System.out.println("1 - Consultar saldo");
             System.out.println("2 - Depositar");
